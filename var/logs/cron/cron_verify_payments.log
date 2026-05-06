@@ -1,0 +1,1 @@
+[2026-04-08 07:00:54] CRON_VERIFY_PAYMENTS Payment verification completed. {"ok":true,"job":"cron_verify_payments","dry_run":true,"latest_payments_checked":10,"rows_needing_alignment":0,"rows_updated":0,"external_verification":"disabled"}

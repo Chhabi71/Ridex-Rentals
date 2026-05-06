@@ -1,0 +1,3 @@
+# Purpose: Error log for application exceptions and failures.
+# Website Section: Observability.
+# Developer Notes: Review for stack traces and error messages; ensure log rotation in production.

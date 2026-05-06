@@ -1,0 +1,3 @@
+# Purpose: Log output for scheduled cron jobs.
+# Website Section: Observability (Background Jobs).
+# Developer Notes: Capture execution results for maintenance, reminders, payment verification, and stats tasks.

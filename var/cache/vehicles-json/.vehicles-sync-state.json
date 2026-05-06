@@ -1,0 +1,90 @@
+{
+    "version": 1,
+    "last_synced_at": "2026-04-04T14:02:30+05:45",
+    "plates": {
+        "BAA-4": {
+            "vehicle_type": "luxury",
+            "db_present": true,
+            "json_present": true,
+            "updated_at": "2026-04-04 13:42:38",
+            "row_hash": "b275bde61598381454c8e81db87b6be39f86d5590c7ae3214731ab0f021cb378"
+        },
+        "BAA-3": {
+            "vehicle_type": "luxury",
+            "db_present": true,
+            "json_present": true,
+            "updated_at": "2026-04-04 08:57:25",
+            "row_hash": "1641e97ba4520fb2b4c50459e6c8fe9c2eebd1e864fef80e2023013dc78f6ba3"
+        },
+        "BAA-2": {
+            "vehicle_type": "luxury",
+            "db_present": true,
+            "json_present": true,
+            "updated_at": "2026-04-04 08:55:37",
+            "row_hash": "6d5195a6c9377ddf74ac04c80cbfce52b26692f3ad7d01ce84cbd209d67fede7"
+        },
+        "BAA-1": {
+            "vehicle_type": "luxury",
+            "db_present": true,
+            "json_present": true,
+            "updated_at": "2026-04-04 08:50:02",
+            "row_hash": "d181e324c12315a209a2b7523535b8c394c68f99bd0d692f656bb115af8143b2"
+        },
+        "BAA-1720": {
+            "vehicle_type": "bikes",
+            "db_present": true,
+            "json_present": true,
+            "updated_at": "2026-04-04 08:46:01",
+            "row_hash": "bab23a0fd33ede33de64d17a885ac9d66b0e5f5ff7315af827ea4546827e562f"
+        },
+        "BAA-1903": {
+            "vehicle_type": "luxury",
+            "db_present": true,
+            "json_present": true,
+            "updated_at": "2026-04-04 00:27:09",
+            "row_hash": "27a1646c50ba1110f6d6a814fcc49c061679a600f8cb1a631ea7da838f0ef7e7"
+        },
+        "BAA-1723": {
+            "vehicle_type": "bikes",
+            "db_present": true,
+            "json_present": true,
+            "updated_at": "2026-04-04 00:27:09",
+            "row_hash": "a22cd14fdf998a7461ff673f7529dc6eeb5475df6b5f5831a8633e5f128108ef"
+        },
+        "BAA-1234": {
+            "vehicle_type": "cars",
+            "db_present": true,
+            "json_present": true,
+            "updated_at": "2026-04-04 00:27:09",
+            "row_hash": "cbcb1afa8e79e09b284a1f1bdead348f52fd7fc4c8352b14ff2d98452f2f969a"
+        },
+        "BAA-1235": {
+            "vehicle_type": "cars",
+            "db_present": true,
+            "json_present": true,
+            "updated_at": "2026-04-04 00:27:09",
+            "row_hash": "74d253fde902c00fc1ab24d1d099080f74c1f4060d7be42b5b26fe0ddfcce863"
+        },
+        "BAA-1236": {
+            "vehicle_type": "cars",
+            "db_present": true,
+            "json_present": true,
+            "updated_at": "2026-04-04 00:27:09",
+            "row_hash": "3d9a9aeb17d6c7261760f61c64f62fd02a9eec2641d1c241eab3ef74d5a92537"
+        },
+        "BAA-1238": {
+            "vehicle_type": "cars",
+            "db_present": true,
+            "json_present": true,
+            "updated_at": "2026-04-04 00:27:09",
+            "row_hash": "d7eb278bb4c5d8129d7e5779dd74864821a0032da749dce539e746e48ff02ae5"
+        },
+        "BAA-1237": {
+            "vehicle_type": "cars",
+            "db_present": true,
+            "json_present": true,
+            "updated_at": "2026-04-04 00:27:08",
+            "row_hash": "63cfc9aa138125fbfbf9fb9922aecde57dc8d411148ecb090510f85446428a29"
+        }
+    }
+}

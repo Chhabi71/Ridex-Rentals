@@ -1,0 +1,3 @@
+# Purpose: Application runtime log output.
+# Website Section: Observability.
+# Developer Notes: Append structured log lines here during development; rotate/ignore in production.

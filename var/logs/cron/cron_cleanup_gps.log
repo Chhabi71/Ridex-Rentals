@@ -1,0 +1,1 @@
+[2026-04-08 07:00:53] CRON_CLEANUP_GPS GPS cleanup skipped (disabled). {"ok":true,"job":"cron_cleanup_gps","disabled":true,"message":"GPS cleanup has been disabled."}
