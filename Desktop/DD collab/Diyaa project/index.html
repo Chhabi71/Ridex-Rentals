@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+  <head>
+    <title>RIDEX Rental</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+
+  <body>
+    <header><h1>RIDEX Rental</h1></header>
+
+    <section id="signup" class="active">
+      <div class="container">
+        <h2>Signup</h2>
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="tel" placeholder="Phone Number" required />
+        <button onclick="nextStep('client')">Next</button>
+        <p>Already have an account? <a onclick="nextStep('login')">Login</a></p>
+      </div>
+    </section>
+
+    <section id="login">
+      <div class="container">
+        <h2>Login</h2>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button onclick="nextStep('admin')">Login</button>
+        <p><a onclick="nextStep('password')">Forgot Password?</a></p>
+      </div>
+    </section>
+
+    <section id="client">
+      <div class="container">
+        <h2>Client Details</h2>
+        <input type="date" required />
+        <select required>
+          <option value="">Select Gender</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+        <button onclick="nextStep('contact')">Next</button>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Information</h2>
+        <input type="tel" placeholder="Mobile Number" required />
+        <input type="email" placeholder="Alternate Email" required />
+        <button onclick="nextStep('dl')">Next</button>
+      </div>
+    </section>
+
+    <section id="dl">
+      <div class="container">
+        <h2>Driving License Verification</h2>
+        <input type="text" placeholder="License Number" required />
+        <input type="file" accept="image/*" required />
+        <button onclick="nextStep('address')">Next</button>
+      </div>
+    </section>
+
+    <section id="address">
+      <div class="container">
+        <h2>Address Information</h2>
+        <input type="text" placeholder="Country" required />
+        <input type="text" placeholder="Zipcode" required />
+        <input type="text" placeholder="Postal Code" required />
+        <input type="text" placeholder="Area" required />
+        <button onclick="nextStep('password')">Next</button>
+      </div>
+    </section>
+
+    <section id="password">
+      <div class="container">
+        <h2>Create Password</h2>
+        <input type="password" id="pw" placeholder="Password" required />
+        <input
+          type="password"
+          id="pw2"
+          placeholder="Confirm Password"
+          required
+        />
+        <p id="pwError" style="color: red"></p>
+        <button onclick="acceptAnyPassword()">Next</button>
+      </div>
+    </section>
+
+    <section id="terms">
+      <div class="container">
+        <h2>Terms & Conditions</h2>
+        <p>
+          By signing up, you agree to our company policies and rental terms.
+        </p>
+        <input type="checkbox" id="accept" /> I accept<br /><br />
+        <button onclick="checkTerms()">Proceed</button>
+      </div>
+    </section>
+
+    <section id="inbox">
+      <div class="container">
+        <h2>Account Created</h2>
+        <p>Check your inbox to verify your account.</p>
+        <button onclick="nextStep('admin')">Go to Admin Dashboard</button>
+      </div>
+    </section>
+
+    <section id="admin">
+      <nav>
+        <a onclick="showAdmin('home')">Home</a>
+        <a onclick="showAdmin('dashboard')">Dashboard</a>
+        <a onclick="showAdmin('settings')">Settings</a>
+        <a onclick="location.reload()">Logout</a>
+      </nav>
+
+      <div class="container" id="adminHome">
+        <h2>Vehicle Rentals Overview</h2>
+        <canvas id="rentalChart"></canvas>
+      </div>
+
+      <div class="container" id="adminDashboard" style="display: none">
+        <h2>GPS Tracking</h2>
+        <div id="map"></div>
+      </div>
+
+      <div class="container" id="adminSettings" style="display: none">
+        <h2>Settings</h2>
+        <p>Profile and system settings go here.</p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
